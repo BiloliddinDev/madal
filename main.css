@@ -1,1 +1,126 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  color: mediumblue;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 24px;
+  color: darkblue;
+  text-align: center;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  width: 1000px;
+  align-self: center;
+}
+
+.knpoka {
+  padding: 4px 20px;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  line-height: 22px;
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.box_img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box_madal {
+  width: 600px;
+  height: 400px;
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parda {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.madal__of{
+  /* display: none; */
+}
+
+.madal_heading {
+  text-align: center;
+}
+
+.input {
+  padding: 15px 40px;
+  margin-left: 15px;
+  width: 400px;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  background-color: deepskyblue;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 20px;
+  color: aliceblue;
+  align-self: center;
+}
+
+.box_send {
+  display: flex;
+  align-self: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.madal_btns {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 25px;
+  align-self: center;
+}
+
+.send {
+  background-color: green;
+}
+.reset {
+  background-color: red;
+}
+
+.close {
+  padding: 6px 15px;
+  background-color: rgb(4, 63, 173);
+  color: aliceblue;
+  margin-left: 20px;
+  border-radius: 5px;
+}
